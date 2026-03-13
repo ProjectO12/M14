@@ -1,6 +1,6 @@
 const hour = new Date().getHours();
 
-if(hour >= 6 && hour < 18){
+if(hour >= 0 && hour < 18){
 document.body.classList.add("day");
 }else{
 document.body.classList.add("night");
@@ -94,11 +94,11 @@ let music=document.getElementById("music");
 
 if(music.paused){
 
-document.getElementById("playy").innerHTML = '⏸';
+document.getElementById("playy").innerHTML = '<i class="fi fi-sr-pause"></i>';
 music.play()
 
 }else{
-document.getElementById("playy").innerHTML = '▶️';
+document.getElementById("playy").innerHTML = '<i class="fi fi-sr-play"></i>';
 music.pause()
 
 }
