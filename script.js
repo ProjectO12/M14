@@ -1,6 +1,6 @@
 const hour = new Date().getHours();
 
-if(hour >= 0 && hour < 18){
+if(hour >= 6 && hour < 18){
 document.body.classList.add("day");
 }else{
 document.body.classList.add("night");
