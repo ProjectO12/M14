@@ -92,6 +92,10 @@ justify-content:center;
 text-align:center;
 
 scroll-snap-align:start;
+letter-spacing: 1px;
+line-height: 1.5rem;
+font-weight: 200;
+font-family: 'Merriweather', serif;
 
 }
 
