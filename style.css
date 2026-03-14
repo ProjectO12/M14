@@ -241,7 +241,7 @@ transform:translateY(-50%);
 width:320px;
 height:90px;
 
-background:#d9dce315;
+background:white;
 
 border-radius:20px;
 
@@ -258,7 +258,7 @@ box-shadow:0 10px 30px rgba(0,0,0,0.55);
 }
 
 .player-bar:hover{
-	background: #b7bac110;
+	background: lightgray;
 }
 
 /* ALBUM */
@@ -304,14 +304,14 @@ margin-left:55px;
 .song-info h3{
 margin:0;
 font-size:18px;
-color: orangered;
+color: steelblue;
 font-weight: 600;
 }
 
 .song-info p{
 margin:0;
 font-size:13px;
-color:lightgray;
+color: steelblue;
 }
 
 /* BUTTON */
@@ -326,7 +326,7 @@ border:none;
 
 background:#6a6f7c00;
 
-color: orangered;
+color: steelblue;
 
 font-size:16px;
 
