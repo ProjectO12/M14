@@ -101,9 +101,17 @@ font-family: 'Merriweather', serif;
 
 .slide h2{
 	font-size: 2rem;
-	color: palegreen;
+	color: beige;
 }
 
+.slide p{
+	color: linen;
+}
+
+.slide h1{
+	color: beige;
+	font-size: 2.2rem;
+}
 /* glass card */
 
 .card{
@@ -245,7 +253,7 @@ transform:translateY(-50%);
 width:320px;
 height:90px;
 
-background:white;
+background: floralwhite;
 
 border-radius:20px;
 
@@ -262,7 +270,7 @@ box-shadow:0 10px 30px rgba(0,0,0,0.55);
 }
 
 .player-bar:hover{
-	background: lightgray;
+	background: white;
 }
 
 /* ALBUM */
@@ -307,15 +315,18 @@ margin-left:55px;
 
 .song-info h3{
 margin:0;
-font-size:18px;
-color: steelblue;
-font-weight: 600;
+font-size:19px;
+color: teal;
+font-weight: 900;
+font-family: 'Merriweather', serif;
 }
 
 .song-info p{
 margin:0;
 font-size:13px;
-color: steelblue;
+color: peru;
+font-family: "Merriweather", serif;
+font-weight: 600;
 }
 
 /* BUTTON */
@@ -330,7 +341,7 @@ border:none;
 
 background:#6a6f7c00;
 
-color: steelblue;
+color: teal;
 
 font-size:16px;
 
